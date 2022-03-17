@@ -1,0 +1,99 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* CONTAINER */
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: lightpink;
+}
+.container {
+  display: flex;
+}
+
+/* SIDEBAR STYLING */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+
+  width: 380px;
+  background-color: lightpink;
+}
+
+#userName {
+  /* width: 200px; */
+}
+
+input {
+  font-size: 1.7rem;
+}
+/* 8 BALL STYLING AND FLEX */
+
+h1 {
+  font-size: 3rem;
+}
+
+label {
+  color: black;
+  font-size: 1.7rem;
+}
+
+.eightBallContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eightBall {
+  width: 550px;
+  height: 550px;
+  background: black;
+  border: 12px ridge #1e3766;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.insideText {
+  width: 260px;
+  height: 125px;
+  background-color: rgb(18, 48, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.activateBall {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(16, 68, 180);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activateBall:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

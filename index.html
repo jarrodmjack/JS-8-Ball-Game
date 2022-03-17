@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Magic 8 ball game" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Magic 8 Ball</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="sidebar">
+        <div>
+          <label for="userName">Enter Name</label>
+          <input type="text" id="userName" />
+        </div>
+        <div>
+          <label for="question">Ask your question</label>
+          <input type="text" id="question" />
+        </div>
+      </section>
+
+      <div class="eightBallContainer">
+        <h1>Magic 8 Ball</h1>
+        <section class="eightBall">
+          <div class="insideText">
+            <p id="userAsks"></p>
+            <p id="eightBallSays"></p>
+          </div>
+          <div class="activateBall"><span>Activate</span></div>
+        </section>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
